@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import ReloadPrompt from './ReloadPrompt.vue'
+</script>
 
 <template>
   <div class="h-full w-full flex justify-center items-center">
@@ -14,6 +16,8 @@
       <ElCard>Auto Import Test</ElCard>
     </div>
   </div>
+
+  <ReloadPrompt />
 </template>
 
 <style lang="scss" scoped>
